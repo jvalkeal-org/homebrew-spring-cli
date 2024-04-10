@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.12.0-SNAPSHOT at 2024-04-10T10:55:35.512321307Z
+# Generated with JReleaser 1.12.0-SNAPSHOT at 2024-04-10T18:57:56.758019105Z
 class SpringCli < Formula
   desc "Spring CLI improves your productivity when creating new Spring projects or adding functionality to existing projects"
   homepage "https://spring.io/projects/spring-cli"
@@ -7,15 +7,15 @@ class SpringCli < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.9.0/spring-cli-standalone-0.9.0-linux.x86_64.zip"
-    sha256 "0386decc63b8bc6d365da2d80bc2bfc12972336996037f182b76d357c7be1da2"
+    sha256 "02d143be40b004b042cf7b175e2524e973eea64b3931b7d89fa26df9b57ed0e2"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.9.0/spring-cli-standalone-0.9.0-osx.aarch64.zip"
-    sha256 "01748e989a8753122dd7df3b424fb3dd9538d55e9ab102ea95539eacc493b30a"
+    sha256 "fa0189a2c4b30cbdfaef7fc72ca5540c8710b51234a2630aba9f5ae8b2518e11"
   end
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.9.0/spring-cli-standalone-0.9.0-osx.x86_64.zip"
-    sha256 "b5d5de8e08db9f25c6c78e490a2854cb870dd0d25561e03e7ee7b2f5f75d5c52"
+    sha256 "b4d0d9e2e3177be89e30ab92781e14410657e72052405339e997f7d0041d43a2"
   end
 
 
